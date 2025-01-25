@@ -1,5 +1,6 @@
 # terraform-module-november-2024
 
+```hcl
 module "november-2024" {
   source  = "Bakyt65/november-2024/module"
   version = "4.0.0"
@@ -8,3 +9,5 @@ module "november-2024" {
   subnet_cidr = "10.0.1.0/24"
   igw_name = "Kaizen"
 }
+
+```
